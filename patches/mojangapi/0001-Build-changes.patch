@@ -5,10 +5,10 @@ Subject: [PATCH] Build changes
 
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index 854971e10dd15e248e98fcff7eaf1bfe01025583..22972e99dca2fd17dd7254f0618dc5d0473588a6 100644
+index 3275a3bf46b2751813a75f9940841a78272143e5..4bbef4d060fc732c2af7a15e1b0222244af16eb7 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
-@@ -14,7 +14,7 @@ repositories {
+@@ -9,7 +9,7 @@ java {
  }
  
  dependencies {
@@ -16,4 +16,4 @@ index 854971e10dd15e248e98fcff7eaf1bfe01025583..22972e99dca2fd17dd7254f0618dc5d0
 +    implementation(project(":forktest-api")) // ForkTest
      api("com.mojang:brigadier:1.0.18")
  
-     compileOnly("it.unimi.dsi:fastutil:8.2.2")
+     compileOnly("it.unimi.dsi:fastutil:8.5.6")
