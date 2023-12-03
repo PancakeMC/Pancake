@@ -1,0 +1,25 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Pancakse <pancakseyt@gmail.com>
+Date: Sat, 2 Dec 2023 16:59:07 +0800
+Subject: [PATCH] Pancake Config File
+
+
+diff --git a/src/main/java/org/bukkit/Server.java b/src/main/java/org/bukkit/Server.java
+index d0c634629aa0b6bac0da93655dd86ad3aea0ce30..1fc734c2898fc3d3b89b58284d56a0cff68794c4 100644
+--- a/src/main/java/org/bukkit/Server.java
++++ b/src/main/java/org/bukkit/Server.java
+@@ -2189,6 +2189,14 @@ public interface Server extends PluginMessageRecipient, net.kyori.adventure.audi
+             throw new UnsupportedOperationException("Not supported yet.");
+         }
+         // Paper end
++		
++		// Pancake start - Not supported yet too
++		@NotNull
++		public org.bukkit.configuration.file.YamlConfiguration getPancakeConfig()
++        {
++            throw new UnsupportedOperationException("Not supported yet.");
++        }
++		// Pancake end - Not supported yet too
+ 
+         /**
+          * Sends the component to the player
