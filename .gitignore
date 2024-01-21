@@ -46,7 +46,8 @@ out/
 # other stuff
 run/
 
-Pancake-server
-Pancake-api
+pancake-server
+pancake-api
+paper-api-generator
 
 !gradle/wrapper/gradle-wrapper.jar
