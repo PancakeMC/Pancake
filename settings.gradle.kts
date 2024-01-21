@@ -11,4 +11,4 @@ plugins {
 
 rootProject.name = "pancake"
 
-include("Pancake-api", "Pancake-server")
+include("pancake-api", "pancake-server")
